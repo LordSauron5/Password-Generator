@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as bulmaToast from 'bulma-toast'
 
 @Component({
   selector: 'app-root',
@@ -47,6 +48,13 @@ export class AppComponent {
 
     this.password = generatedPassword;
 
+    bulmaToast.toast({
+      message: 'New password generated',
+      position: 'top-right',
+      type: 'is-success',
+      duration: 2000,
+      animate: { in: 'fadeIn', out: 'fadeOut' }
+    })
   } 
 
   onChangeUseLetters() {
@@ -66,7 +74,14 @@ export class AppComponent {
     copyText.select();
     document.execCommand('copy');
     document.body.removeChild(copyText);
-    alert('Copied the text: ' + this.password);
+
+    bulmaToast.toast({
+      message: 'Password Copied',
+      position: 'top-right',
+      type: 'is-success',
+      duration: 2000,
+      animate: { in: 'fadeIn', out: 'fadeOut' }
+    })
   }
 
 }
