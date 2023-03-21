@@ -1,2 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'bulma/css/bulma.css';
+
+html {
+    /* background-image: url('https://images.unsplash.com/photo-1503024572063-b3c621a2d424?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80'); */
+    background-image: url('https://images.unsplash.com/photo-1561825618-a26f85c50bf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+    /* background-image: url('https://images.unsplash.com/photo-1614064548306-51cd89c21764?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'); */
+    /* background-image: url('https://images.unsplash.com/photo-1544668637-89001ab6415e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80'); */
+    /* background-image: url('https://images.unsplash.com/photo-1618060932014-4deda4932554?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'); */
+    /* background-image: url('https://images.pexels.com/photos/4291/door-green-closed-lock.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}

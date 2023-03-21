@@ -59,4 +59,14 @@ export class AppComponent {
     this.includeSymbols = !this.includeSymbols;
   }
 
+  copyToClipboard() {
+    const copyText = document.createElement('textarea');
+    copyText.value = this.password;
+    document.body.appendChild(copyText);
+    copyText.select();
+    document.execCommand('copy');
+    document.body.removeChild(copyText);
+    alert('Copied the text: ' + this.password);
+  }
+
 }
